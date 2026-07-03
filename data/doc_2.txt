@@ -1,0 +1,9 @@
+
+
+Natural Language Processing (NLP)
+
+
+Natural language processing (NLP) focuses on enabling computers to understand, interpret, and generate human language.
+It spans tasks such as text classification, sentiment analysis, machine translation, question answering, summarization, and conversational AI.
+Traditional NLP relied heavily on linguistic rules and handcrafted features, but modern NLP is dominated by deep learning—especially transformer models like BERT and GPT—which learn context and meaning from vast amounts of text.
+NLP powers virtual assistants, search engines, chatbots, and document analysis systems, and it sits at the center of today’s large language models, which can read, write, and reason over language with remarkable fluency.

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+
+# Environment variables (never commit secrets)
+.env
+
+# Local vector store (regenerated from notebook)
+chroma_db/
+
+# Duplicate docs written to project root by notebook (not data/)
+/doc_0.txt
+/doc_1.txt
+/doc_2.txt

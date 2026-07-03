@@ -1,0 +1,9 @@
+
+
+Machine Learning
+
+
+Machine learning is a branch of artificial intelligence in which systems learn patterns from data instead of being programmed with explicit rules for every case.
+Algorithms build mathematical models from examples—labeled data in supervised learning, unlabeled data in unsupervised learning, or rewards and penalties in reinforcement learning—and use those models to make predictions or decisions on new inputs.
+Common applications include spam filtering, recommendation systems, fraud detection, and medical diagnosis.
+The field rests on statistics, optimization, and computer science, and its strength is generalization: a well-trained model can perform well on data it has never seen, as long as that data resembles what it was trained on.

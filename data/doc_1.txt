@@ -1,0 +1,9 @@
+
+
+Deep Learning
+
+
+Deep learning is a subset of machine learning built on artificial neural networks with many layers, which is why it is called “deep.”
+These networks learn hierarchical representations: early layers may detect simple features such as edges or words, while deeper layers combine them into richer concepts such as objects, sentences, or abstract patterns.
+Deep learning has driven major advances in image recognition, speech processing, game playing, and generative AI, largely because it scales well with large datasets and powerful hardware such as GPUs.
+Models like convolutional neural networks (CNNs) excel at spatial data like images, while recurrent and transformer-based architectures are widely used for sequential and language data.
