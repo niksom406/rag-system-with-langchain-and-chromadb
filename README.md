@@ -26,7 +26,7 @@ A Retrieval-Augmented Generation (RAG) project that loads text documents, stores
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/rag-system-with-langchain-and-chromadb.git
+git clone https://github.com/niksom406/rag-system-with-langchain-and-chromadb.git
 cd rag-system-with-langchain-and-chromadb
 ```
 
