@@ -10,6 +10,23 @@ A Retrieval-Augmented Generation (RAG) project that loads text documents, stores
 - Build a RAG chain using `create_retrieval_chain` and `create_stuff_documents_chain`
 - Query with similarity search and LLM-generated answers
 
+## RAG Chain Architecture
+
+When you invoke the RAG chain with a question, it follows this flow:
+
+```mermaid
+flowchart TD
+    A["User question: input"] --> B["Chroma retriever (k=3)"]
+    B --> C["Top 3 document chunks → context"]
+    A --> D["stuff_documents_chain"]
+    C --> D
+    D --> E["Format docs into one context string"]
+    E --> F["ChatPromptTemplate"]
+    A --> F
+    F --> G["GPT-3.5-turbo"]
+    G --> H["StrOutputParser → answer string"]
+```
+
 ## Project Structure
 
 ```
